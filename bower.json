@@ -1,17 +1,9 @@
 {
-  "name": "heisenberg",
-  "version": "0.0.1",
+  "name": "testing",
+  "version": "0.0.0",
+  "homepage": "jacobarr",
   "authors": [
-    "Jacob Arriola <jacob@zeek.com>",
-    "Steve Zehngut <steve@zeek.com>",
-    "David Arceneaux <david@zeek.com>"
-  ],
-  "description": "Wordpress starter theme",
-  "keywords": [
-    "wordpress",
-    "gulp",
-    "Foundation",
-    "sass"
+    "Jacob Arriola <jacob.arriola@gmail.com>"
   ],
   "license": "MIT",
   "private": true,
@@ -19,11 +11,11 @@
     "**/.*",
     "node_modules",
     "bower_components",
-    "assets/components",
+    "assets/components/",
     "test",
     "tests"
   ],
   "devDependencies": {
-    "foundation": "~5.5.1"
+    "fontawesome": "~4.3.0"
   }
 }
