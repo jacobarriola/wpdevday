@@ -1,21 +1,26 @@
 {
-  "name": "testing",
+  "name": "Testing",
   "version": "0.0.0",
-  "homepage": "jacobarr",
+  "homepage": "https://github.com/jacobarriola/wpdevday",
   "authors": [
     "Jacob Arriola <jacob.arriola@gmail.com>"
   ],
+  "description": "OC Dev Day",
   "license": "MIT",
   "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
-    "assets/components/",
+    "assets/components",
     "test",
     "tests"
   ],
+  "dependencies": {
+    "foundation": "~5.5.1"
+  },
   "devDependencies": {
-    "fontawesome": "~4.3.0"
+    "foundation": "~5.5.1",
+    "FlexSlider": "git://github.com/woothemes/FlexSlider.git"
   }
 }

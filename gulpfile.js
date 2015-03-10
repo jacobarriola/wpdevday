@@ -15,7 +15,7 @@ gulp.task('browser-sync', function() {
 	];
 
 	browserSync.init(files, {
-		proxy: 'heisenberg.dev/'
+		proxy: 'master.dev/'
 	});
 });
 
@@ -23,9 +23,10 @@ gulp.task('browser-sync', function() {
 // Our 'styles' tasks, which handles our sass actions such as compliling and minification
 
 gulp.task('styles', function() {
-	return sass('assets/sass/', {
+	return sass('assets/sass/app.scss', {
 			style: 'expanded',
-			lineNumbers: true 
+			lineNumbers: true,
+			sourcemap: false  
 		})
 		.on('error', notify.onError(function(error) {
 			return "Error: " + error.message;
